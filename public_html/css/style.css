@@ -247,6 +247,9 @@ cite::before {
         width: 75px;
         height: 75px;
     }
+    h1 {
+        font-size: 40px;
+    }
 }
 
 @media (hover: none) and (max-width: 500px) {
