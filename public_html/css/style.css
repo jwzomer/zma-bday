@@ -249,6 +249,13 @@ cite::before {
     }
 }
 
+@media (hover: none) and (max-width: 500px) {
+    .carousel::before,
+    .carousel::after {
+        display: none;
+    }
+}
+
 
 /*-------------------------------------------
 -Background Images for Carousel indicators---
