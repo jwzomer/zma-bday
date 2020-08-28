@@ -225,6 +225,7 @@ cite::before {
     body {
         flex-direction: column;
         padding-bottom: 30px;
+        margin: 30px;
     }
     figcaption.bottom {
         display: none;
@@ -233,7 +234,7 @@ cite::before {
         display: block;
     }
     figcaption {
-        padding-top: 20px;
+        /* padding-top: 20px; */
     }
     article nav {
         max-height: unset;
@@ -245,6 +246,16 @@ cite::before {
     .carousel__navigation-item {
         width: 75px;
         height: 75px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media (hover: none) and (max-width: 500px) {
+    .carousel::before,
+    .carousel::after {
+        display: none;
     }
 }
 
