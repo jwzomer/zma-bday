@@ -252,7 +252,7 @@ cite::before {
     }
 }
 
-@media (hover: none) and (max-width: 500px) {
+@media (max-width: 500px) {
     .carousel::before,
     .carousel::after {
         display: none;
