@@ -253,9 +253,15 @@ cite::before {
 }
 
 @media (max-width: 500px) {
+    body {
+        margin: 15px;
+    }
     .carousel::before,
     .carousel::after {
         display: none;
+    }
+    h1 {
+        font-size: 35px;
     }
 }
 
