@@ -263,6 +263,10 @@ cite::before {
     h1 {
         font-size: 35px;
     }
+    cite::before {
+        position: relative;
+        left: unset;
+    }
 }
 
 
