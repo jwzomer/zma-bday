@@ -274,10 +274,12 @@ cite::before {
 -Background Images for Carousel indicators---
 -------------------------------------------*/
 
-.carousel__navigation-list>li:hover {
-    z-index: 2;
-    transform: scale(1.4);
-    transition: transform .125s ease-in-out;
+@media (min-width: 500px) {
+    .carousel__navigation-list>li:hover {
+        z-index: 2;
+        transform: scale(1.4);
+        transition: transform .125s ease-in-out;
+    }
 }
 
 .carousel__navigation-list>li:nth-child(1) a {
